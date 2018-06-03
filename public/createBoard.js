@@ -16,6 +16,7 @@ function createBoard (cells) {
     }
     board.push(row)
   }
-  console.log(board)
+  //console.log(board)
   return board
 }
+//createBoard(5)

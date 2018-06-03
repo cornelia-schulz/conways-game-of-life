@@ -6,7 +6,7 @@ function updateBoard() {
     // loop over each row of the board
     for (let row = 0; row < board.length; row++) {
         // loop over each item in that row
-        for (let column = 0; column < board[i].length; column++) {
+        for (let column = 0; column < board[row].length; column++) {
             let cell = board[row][column]
             // check if neighbouring cells are alive or dead
             // add them to the counter if they are alive
@@ -62,3 +62,4 @@ function updateBoard() {
         return board
     }
 }
+updateBoard()
