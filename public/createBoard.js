@@ -6,7 +6,7 @@ function createBoard (cells) {
     let row = []
     for (let j = 0; j < cells; j++) {
       let state = Math.floor(Math.random() * Math.floor(10))
-      if (state < 6) {
+      if (state < 5) {
         //row.push({row: i, col: j, isAlive: false})
         row.push('!')
       } else {
